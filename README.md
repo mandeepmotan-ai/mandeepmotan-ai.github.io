@@ -1,4 +1,4 @@
-## Hi there 👋
+## I am Mandeep Motan
 
 <!--
 **mandeepmotan-ai/mandeepmotan-ai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
