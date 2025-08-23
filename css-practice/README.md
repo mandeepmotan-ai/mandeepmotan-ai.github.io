@@ -13,9 +13,9 @@ Every project is viewable directly through **GitHub Pages**.
 
 ## 🚀 Live Projects  
 
-- 🃏 **Card Design #1** → [Live Demo](https://mandeepmotan-ai.github.io/css-practice/01.Card/card1)  
-- 🃏 **Card Design #2** → [Live Demo](https://mandeepmotan-ai.github.io/css-practice/01.Card/card2)  
-- 🃏 **Card Design #3** → [Live Demo](https://mandeepmotan-ai.github.io/css-practice/01.Card/card3)  
+- 🃏 **Card Design #1 card1** → [Live Demo](https://mandeepmotan-ai.github.io/css-practice/01.Card/card1)  
+- 🃏 **Card Design #2 card2** → [Live Demo](https://mandeepmotan-ai.github.io/css-practice/01.Card/card2)  
+- 🃏 **Card Design #3 card3** → [Live Demo](https://mandeepmotan-ai.github.io/css-practice/01.Card/card3)  
 
 ---
 
