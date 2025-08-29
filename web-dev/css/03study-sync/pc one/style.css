@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700&display=swap');
+
+
+:root {
+    --primary-color: #6366F1;
+    --accent-color: #3f83f8;
+    --text-color: #333333;
+    --link-color: #2563eb;
+    --background-color: #ffffff;
+    --light-gray: #f0f0f0;
+    --gray: #808080;
+    --dark-gray: #555;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    /* background-color: var(--background-color); */
+}
+
+
+/* header CSS starts */
+
+header{
+    /* width: 100vw; */
+    display: flex;
+    align-content: center;
+    min-height: 100px;
+    padding: 2.4rem 7rem;
+    justify-content: space-between;
+    /* border: 5px solid black; */
+    
+}
+
+.logoDiv{
+    display: flex;
+    /* border: 1px solid black; */
+    gap: 0.5rem;
+    align-items: center;
+}
+
+#logoTag{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.logoDiv img{
+    height: 1.8rem;
+    width: 2rem;
+
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.navBar a{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #718096;
+}
+.navBar a:hover{
+    color: blueviolet;
+}
+
+header button{
+    padding: 0.7rem 1.3rem;
+    border: var(--primary-color);;
+    border-radius: 0.3rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+    background-color: var(--primary-color);
+    border: 0px;
+}
+header button:hover{
+    background-color: var(--link-color);
+}
+
+/* header CSS ends */
+
+/* hero CSS starts */
+
+.heroDiv{
+    display: flex;
+    padding: 1rem 7rem;
+    gap: 5rem;
+}
+
+.leftDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* border: 2px solid black; */
+    padding: 3rem 0;
+}
+
+.leftDiv h1{
+    font-size: 4rem;
+    max-width: 90%;
+    color: var(--text-color);
+    
+}
+
+.leftDiv span{
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.leftDiv p{
+    text-align: left;
+    font-size: 1.15rem;
+    color: var(--gray);
+    max-width: 75%;
+}
+
+.leftButtonDiv{
+    display: flex;
+    gap: 2.5rem;
+    max-width: 50%;
+    padding: 2rem 0rem;
+    /* border: 2px solid black; */
+}
+
+.leftButtonDiv button{
+    padding: 0.7rem 1.3rem;
+    border: 0px;
+    border-radius: 0.4rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#startButton{
+    background-color: var(--primary-color);
+}
+#startButton:hover{
+    background-color: var(--link-color);
+}
+
+#tourButton{
+    background-color: var(--dark-gray);
+}
+#tourButton:hover{
+    background-color: var(--gray);
+}
+
+
+.rightDiv{
+    border-radius: 20px;
+    
+}
+
+.rightDiv img{
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+/* hero CSS starts */
+
+/* trust section CSS starts */
+
+.trustDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.trustDiv h1{
+    font-size: 2.3rem;
+}
+
+.companies{
+    display: flex;
+    width: 48%;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+    border-radius: 0.7rem;
+    padding: 1.8rem 2.5rem;
+    background-color: var(--light-gray);
+}
+
+.company{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--light-gray);
+}
+
+.company img{
+    height: 25px;
+    width: 25px;
+    background-color: var(--light-gray);
+}
+
+.company span{
+    align-self: flex-start;
+    background-color: var(--light-gray);
+    color: var(--gray);
+    font-weight: 600;
+}
+
+/* trust Section ends */
+
+
+/* competetive section CSS starts */
+
+.competitiveSection{
+    background-color: var(--light-gray);
+    padding: 2rem 0;
+}
+
+.competitiveDiv{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.compTopic{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 1px solid black; */
+    padding-bottom: 2rem;
+}
+
+.compTopic h1{
+    font-size: 2.3rem;
+}
+
+.compTopic span{
+    text-align: center;
+    color: var(--gray);
+}
+
+.gridPart{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+
+.miniBoxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: 0;
+    color: white;
+    border-radius: 2rem;
+}
+
+.miniBoxes p{
+    text-align: center;
+}
+
+
+.miniBoxes img{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.8rem;
+    overflow: visible;
+}
+
+.miniBoxes:nth-child(2){
+    background-color: #FF6289;
+}
+
+.miniBoxes:nth-child(3){
+    background-color: #fcbf58;
+}
+
+.miniBoxes:nth-child(4){
+    background-color: #44bfc3;
+}
+
+.miniBoxes:nth-child(5){
+    background-color: #77b05d;
+}
+
+.miniBoxes:nth-child(6){
+    background-color: #7d78b1;
+}
+
+.reviewDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 6rem;
+    gap: 1rem;
+}
+
+.reviewBoxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.rbox{
+    border: 1px solid rgb(171, 163, 163);;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: all 0.4s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rbox:hover{
+    transform: scale(1.05);
+    border: 1px solid blueviolet;
+}
+
+.rbox span{
+    font-size: 0.875rem;
+    color: #555;
+    text-align: center;
+}
+
+.rbox img{
+    height: 84px;
+    width: 84px;
+}
+
+.boxName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxName h4{
+    color: #2563eb;
+}
+
+.boxName p{
+    color: #555;
+    text-align: center;
+}
+
+/* competitive section CSS ends */
+
+
+/* update section CSS starts */
+
+.updateSection{
+    padding: 2rem 7rem;    
+}
+
+.updateDiv{
+    display: flex;
+    height: 45vh;
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+}
+
+.updateRightDiv{
+    width: 50%;
+}
+.updateRightDiv img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.updateLeftDiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    gap: 1.5rem;
+    background-color: var(--light-gray);
+}
+
+.updateLeftDiv h1{
+    font-size: 2.5rem;
+    color: #2563eb;
+}
+
+
+.updateHeadingDiv span{
+    color: var(--gray);
+}
+
+.inputDiv{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.inputDiv input{
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    border: 1px solid #ccc;
+}
+.inputDiv input:focus{
+    border: 1px solid #ccc;
+    /* border-color: #2563eb; */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    outline: none;
+}
+
+.inputDiv button{
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 0.24rem;
+    border: 0;
+}
+.inputDiv button:hover{
+    background-color: var(--link-color);
+}
+
+.updateLeftDiv p{
+    color: var(--gray);
+    font-size: 0.8rem;
+}
+.updateLeftDiv a{
+    color: var(--primary-color);
+}
+
+/* update section CSS ends */
+
+footer{
+    padding: 2rem 7rem;    
+}
+
+.footDiv{
+    display: flex;
+
+}
+
+.leftFootDiv{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 1rem;
+}
+
+.leftFootDiv span{
+    color: var(--gray);
+}
+
+.logoFootDiv{
+    display: flex;
+    gap: 1rem;
+}
+.logoFootDiv img{
+    height: 1.7rem;
+    width: 1.7rem;
+}
+
+.rightFootDiv{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+
+}
+
+.footLinksSect{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    gap: 1.5rem;
+
+}
+
+.footLinksSect a{
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+/* footer section CSS ends */
+
+
+/* copyright section CSS starts */
+
+
+.copyrightSection{
+    padding: 2rem 7rem;    
+}
+
+.copyrightDiv{
+    border-top: 1px solid #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: var(--gray);
+    font-size: 0.9rem;
+}
+
+/* copyright section CSS ends */
+
+
+
+
+

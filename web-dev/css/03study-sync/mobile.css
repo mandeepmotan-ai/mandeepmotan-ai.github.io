@@ -1,0 +1,229 @@
+@media only screen and (max-width:650px){
+
+    /* header css starts */
+
+    header{
+        padding: 1rem;
+        /* border: 1px solid yellow; */
+
+    }
+
+    .logoDiv{
+        width: 100%;
+        /* border: 1px solid yellow; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #E5E7EB;
+    }
+
+    #logoTag{
+        font-size: 2.5rem;
+    }
+
+    .navBar{
+        display: none;
+    }
+
+    .rightDiv{
+        height: auto;
+        width: auto;
+    }
+
+    header button{
+        display: none;
+    }
+
+
+    /* header css ends   */
+
+    /* hero section css starts  */
+
+    .heroDiv{
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .leftDiv{
+        /* align-items: center; */
+        padding: 0;
+        /* border: 1px solid black; */
+        gap: 0.8rem;
+    }
+
+    .leftDiv h1{
+        font-size: 2rem;
+        text-align: center;
+        /* border: 1px solid yellow; */
+        width: 100%;
+    }
+    
+    .leftDiv span{
+        text-align: center;
+    }
+
+    .leftDiv p{
+        max-width: 100%;
+        text-align: justify;
+    }
+
+    .leftButtonDiv{
+        /* border: 1px solid blue; */
+        max-width: 100%;
+    }
+
+    .leftButtonDiv button{
+        padding: 0.5rem 1rem;
+    }
+
+    .rightDiv{
+        height: 100%;
+        width: 100%;
+    }
+
+
+
+    /* hero section css ends  */
+    
+    /* trust section css starts  */
+
+    .trustDiv{
+        gap: 1rem;
+    }
+
+    .companies{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        width: 80%;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .trustDiv h1{
+        text-align: center;
+    }
+
+    .company{
+        /* border: 1px solid blue; */
+        justify-content: center;
+    }
+
+
+    /* trust section css ends  */
+
+    /* competitive section css starts  */
+
+    .competitiveDiv{
+        width: 100%;
+        align-items: center;
+    }
+    
+    .gridPart{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,1fr);
+    }
+
+    .compTopic h1{
+        text-align: center;
+    }
+
+    
+
+
+    /* competitive section css ends  */
+
+    /* review section css starts  */
+
+    .reviewDiv{
+        padding: 1rem;
+
+    }
+
+    .reviewDiv h1{
+        text-align: center;
+    }
+
+    .reviewBoxes{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+
+
+    /* review section css ends  */
+    
+    /* update section css starts  */
+
+    .updateSection{
+        padding: 1rem;
+    }
+
+
+    .updateRightDiv{
+        display: none;
+        
+    }
+
+    .updateLeftDiv{
+        width: 100%;
+        padding: auto;
+
+    }
+
+
+    /* update section css ends  */
+    
+    /* footer section css starts  */
+
+    .footDiv{
+        flex-direction: column;
+        /* border: 1px solid brown; */
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid yellow; */
+    }
+
+    .leftFootDiv{
+        margin: 1rem;
+        margin-bottom: 2rem;
+        width: 100%;
+        /* border: 1px solid yellow; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer{
+        padding: 1rem;
+    }
+
+    .rightFootDiv{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1rem;
+        width: 100%;
+        /* border: 1px solid yellow; */
+    }
+
+    .footLinksSect{
+        justify-content: start;
+        align-items: center;
+    }
+
+
+
+    /* footer section css ends  */
+    
+    /* copyright section css starts  */
+
+    .copyrightSection{
+        padding: 1rem;
+    }
+
+    .copyrightDiv span{
+        text-align: center;
+    }
+
+
+    /* copyright section css ends  */
+
+}
