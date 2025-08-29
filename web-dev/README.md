@@ -1,6 +1,6 @@
-# 🎨 CSS Practice  
+# 🎨 Web Dev Practice  
 
-Welcome to my **CSS Practice** directory!  
+Welcome to my **Web Dev Practice** directory!  
 This folder is dedicated to small projects, exercises, and mini-clones that help me strengthen my fundamentals in **CSS**.  
 
 ---
@@ -23,7 +23,7 @@ Every project is viewable directly through **GitHub Pages**.
 
 ## 📌 Upcoming Projects  
 
-I’ll keep adding more CSS practice projects here as I continue learning.  
+I’ll keep adding more Web Dev practice projects here as I continue learning.  
 Some ideas you’ll soon see in this directory:  
 
 - 🎯 Button hover effects  
@@ -36,4 +36,4 @@ Stay tuned — this list will grow as I build more!
 
 ---
 
-✨ *These mini-projects are my way of experimenting with CSS and leveling up my front-end skills.*  
+✨ *These mini-projects are my way of experimenting with web dev and leveling up my front-end and back-end skills.*  
