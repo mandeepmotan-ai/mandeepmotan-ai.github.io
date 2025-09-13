@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body{
+    background-color: #121212;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    /* border: 1px solid yellow; */
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.8rem;
+    gap: 1rem;
+    padding: 0.8rem 1.5rem;
+    margin: 1rem;
+}
+
+.container h1{
+    color: #FFFFFF;
+    font-size: 1.8rem;
+}
+
+.input-container{
+    height: 4rem;
+    /* border: 1px solid yellowgreen; */
+    display: flex;
+    gap: 1rem;
+}
+
+#todo-input{
+    background-color: #2C2C2C;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    width: 80%;
+    padding: 2rem 1rem;
+}
+
+#todo-input:focus{
+    outline: none;
+}
+
+#todo-input::placeholder{
+    color: #777777;
+    font-size: 1rem;
+    /* padding: 2rem 1rem; */
+}
+
+#todo-input:focus::placeholder{
+    color: transparent;
+}
+
+#add-task-btn{
+    background-color: #7B2FFF;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0rem 0.8rem;
+    font-size: 1rem;
+    width: 20%;
+}
+
+#add-task-btn:active{
+    background-color: #6366F1;
+}
+
+#todo-list{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1rem 0rem;
+}
+
+#todo-list li{
+    /* border: 1px solid yellowgreen; */
+    display: flex;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    gap: 2rem;
+    background-color: #2C2C2C;
+    border-radius: 0.3rem;
+    justify-content: space-between;
+
+}
+
+.completed{
+    background-color: #2c2c2c81 !important;
+    color: #888;
+}
+
+.completed span{
+    text-decoration: line-through;
+}
+
+#todo-list button{
+    background-color: #FF3B30;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+    align-self: flex-end;
+    
+}
+
+#todo-list button:active{
+    background-color: #ff3a30cc;
+}
